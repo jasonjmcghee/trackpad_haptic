@@ -1,0 +1,10 @@
+[package]
+name = "trackpad_haptic"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+icrate = { version = "0.1", features = ["AppKit_all", "Foundation_NSThread"] }
+
+[[example]]
+name = "morse"
