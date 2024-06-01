@@ -13,4 +13,4 @@ cargo run --example morse
 
 ## License
 
-* MIT License ([LICENSE](LICENSE) or [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT))
+* [MIT License](LICENSE)
