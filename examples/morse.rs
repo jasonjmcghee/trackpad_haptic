@@ -1,7 +1,7 @@
 use std::fmt::Display;
 use std::thread::sleep;
 use std::time::Duration;
-use trackpad_haptic::feedback::{Feedback, FeedbackManager};
+use trackpad_haptic::{Feedback, FeedbackManager};
 
 fn main() {
     loop {
@@ -21,8 +21,8 @@ impl Morse {
     pub fn get_millis(&self) -> u64 {
         match self {
             Morse::Dot => 100,
-            Morse::Dash => 1000,
-            Morse::Space => 1000,
+            Morse::Dash => 300,
+            Morse::Space => 600,
         }
     }
 

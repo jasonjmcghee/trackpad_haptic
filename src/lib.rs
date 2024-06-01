@@ -1,2 +1,4 @@
 #[allow(deprecated)]
-pub mod feedback;
+mod feedback;
+
+pub use feedback::{Feedback, FeedbackManager};

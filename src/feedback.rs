@@ -10,7 +10,7 @@ use icrate::AppKit::{
 use icrate::Foundation::MainThreadMarker;
 use icrate::objc2::__framework_prelude::{Id, ProtocolObject};
 
-const TIME_UNIT: u64 = 100;
+const TIME_UNIT: u64 = 10;
 const UNIT_DELAY: u64 = 10;
 
 pub struct Feedback {
