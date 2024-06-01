@@ -1,7 +1,7 @@
 # Trackpad Haptic Feedback on Mac
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jasonjmcghee/trackpad_haptic#license)
 [![Crates.io](https://img.shields.io/crates/v/trackpad_haptic.svg)](https://crates.io/crates/trackpad_haptic)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jasonjmcghee/trackpad_haptic#license)
 
 A simple interface into controlling the mac trackpad haptic feedback from rust.
 
