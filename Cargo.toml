@@ -5,7 +5,6 @@ edition = "2021"
 license = "MIT"
 repository = "https://github.com/jasonjmcghee/trackpad_haptic"
 description = "A simple interface into controlling the mac trackpad haptic feedback"
-license-file = "LICENSE"
 
 [dependencies]
 icrate = { version = "0.1", features = ["AppKit_all", "Foundation_NSThread"] }
